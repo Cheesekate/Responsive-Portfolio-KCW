@@ -7,7 +7,7 @@
     integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
   <link rel="stylesheet" type="text/css" href="style.css">
   <title> KCW</title>
-  <nav class="container-fluid">
+  <!-- <nav class="container-fluid">
     <div class="row">
       <header class="col-md-2">
 
@@ -19,7 +19,7 @@
         <a class="navbar-brand nav-link text-secondary mr-0" href="contact.html">Contact</a>
       </div>
     </div>
-  </nav>
+  </nav> -->
 
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -28,12 +28,37 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 
-<body>
+<body class="w3-light-grey">
 
+  <div class="w3-top">
+    <div class="w3-bar w3-theme-d2 w3-left-align">
+      <a class="w3-bar-item w3-button w3-hide-medium w3-hide-large w3-right w3-hover-white w3-theme-d2"
+        href="javascript:void(0);" onclick="openNav()"><i class="fa fa-bars"></i></a>
+      <a href="index.html" class="w3-bar-item w3-button w3-teal"><i class="fa fa-home w3-margin-right"></i>Kate Wade</a>
+      <a href="portfolio.html" class="w3-bar-item w3-button w3-hide-small w3-hover-white">Portfolio</a>
+      <a href="contact.html" class="w3-bar-item w3-button w3-hide-small w3-hover-white">Contact</a>
+      <!-- <a href="#pricing" class="w3-bar-item w3-button w3-hide-small w3-hover-white">Price</a>
+      <a href="#contact" class="w3-bar-item w3-button w3-hide-small w3-hover-white">Contact</a> -->
+      <!-- <div class="w3-dropdown-hover w3-hide-small">
+        <button class="w3-button" title="Notifications">Dropdown <i class="fa fa-caret-down"></i></button>
+        <div class="w3-dropdown-content w3-card-4 w3-bar-block">
+          <a href="#" class="w3-bar-item w3-button">Link</a>
+          <a href="#" class="w3-bar-item w3-button">Link</a>
+          <a href="#" class="w3-bar-item w3-button">Link</a>
+        </div>
+      </div> -->
+
+    </div>
+
+    <!-- Navbar on small screens -->
+    <div id="navDemo" class="w3-bar-block w3-theme-d2 w3-hide w3-hide-large w3-hide-medium w3-hide-container">
+      <a href="contact.html" class="w3-bar-item w3-button">Contact</a>
+    </div>
+  </div>
 
   <div class="w3-container w3-padding-64 w3-center" id="team">
-    <h2>Projects</h2>
-    <p>UofA</p>
+    <h1>Projects</h1>
+    <h2>UofA</h2>
 
 
     <a href="https://budget-tool21323.herokuapp.com/">
@@ -44,7 +69,6 @@
         <p>Make a budget</p>
       </div>
     </a>
-
     <a href="https://fitness-tracker239749.herokuapp.com/">
       <div class="w3-quarter">
         <img src="https://images.unsplash.com/photo-1571902943202-507ec2618e8f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9"
@@ -71,7 +95,7 @@
     </a>
 
   </div>
-  <div class="w3-container w3-padding-64 w3-center" id="team">
+  <div class="w3-container w3-padding-20 w3-center" id="team">
 
     <a href="https://cheesekate.github.io/Employee-Tracker/">
       <div class="w3-quarter">
@@ -112,7 +136,7 @@
     </a>
 
   </div>
-  <div class="w3-container w3-padding-64 w3-center" id="team">
+  <div class="w3-container w3-padding-20 w3-center" id="team">
 
     <a href="https://github.com/Cheesekate/Password-Generate-KCW">
       <div class="w3-quarter">
