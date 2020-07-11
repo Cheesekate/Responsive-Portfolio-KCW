@@ -12,17 +12,29 @@ h6 {
 w3-quarter.img{
     max-width:100%;
     max-width: 150px;
+    
     max-height: 150px;
-    display:block;
     height:auto;
-    object-fit: contain;
 }
 
-w3-container{
-    display:block;
-    height:auto;
-    object-fit: contain;
-    image-rendering: auto;
+html,body {
+    height:100%;
+}
+div {
+    position: relative;
+
+}
+
+
+.bgimg {
+    background-image: url("https://s11759.pcdn.co/wp-content/uploads/2011/10/U_of_Arizona_logo.png");
+    min-height: 100%;
+    background-position: center;
+    background-size: cover;
+}
+
+div{ 
+    display:block
 
 }
 
