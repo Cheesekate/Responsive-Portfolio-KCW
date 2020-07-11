@@ -1,32 +1,18 @@
-.container-fluid{
-    background-color: blueviolet;
-    font-family: cursive;
-    text-align: center;
+html,
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Roboto", sans-serif
 }
-.img-container{
-    position: relative;
-}
-.img-container img{
-    width: 100%;
-}
-.img-container h2 {
-    position: absolute;
-    background-color: cornflowerblue;
-    padding: 1px 1px;
-    width: 100%;
-    text-align: center;
-    bottom: 20px;
-}
-.form-group{
-    position: relative;
-    text-align: left;
-}
-.footer{
-    background-color: aquamarine;
-    left: 0px;
-    bottom: 0px;
-    height: 40px;
-    width: 100%;
-    text-align: center;
-    position: absolute;
+
+w3-quarter.img{
+    max-width:100%;
+    max-width: 100px;
+    max-height: 100px;
+    display:block;
+    height:auto;
 }
