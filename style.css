@@ -27,14 +27,15 @@ div {
 
 
 .bgimg {
-    background-image: url("https://s11759.pcdn.co/wp-content/uploads/2011/10/U_of_Arizona_logo.png");
-    min-height: 100%;
+    background-image: url('./assets/uofa2.png');
+    min-height: 65%;
+    max-height: 20px;
     background-position: center;
     background-size: cover;
+    margin-bottom: 20px;
 }
 
 div{ 
     display:block
 
 }
-
